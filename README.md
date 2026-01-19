@@ -18,13 +18,13 @@ Demonstrates a complete preprocessing workflow using a benign vs. defacement URL
 **Note:** Includes a linear regression example in a separate section.
 
 ### 3. [Decision Tree](/ML_Lab_03_jan_16.ipynb)
-Implements a `DecisionTree` class from scratch for categorical data classification using entropy and information gain.
+Implements a `DecisionTree` class from scratch only for categorical data classification using entropy and information gain.
 
 **Requirements:**
 - Understanding of entropy and information gain concepts
 - Familiarity with recursive algorithms
 - Prerequisites: Lab 2 (preprocessing)
 
-**Performance:** Achieves ~0.99 accuracy on test data.
+**Performance:** Achieves 98 percent accuracy on test data.
 
 **Current status:** Working implementation with room for optimization.
