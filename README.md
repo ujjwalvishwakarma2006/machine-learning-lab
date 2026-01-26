@@ -1,4 +1,7 @@
-This repository contains machine learning implementations written from scratch with minimal LLM assistance. The code progresses from fundamental concepts to more complex algorithms, with each notebook building on previous work.
+# Machine Learning Lab Spring 2026
+
+This repository contains machine learning implementations written from scratch with minimal LLM assistance. 
+The code progresses from fundamental concepts to more complex algorithms, with (almost) each notebook building on previous work.
 
 **Prerequisites:** Basic Python knowledge is assumed.
 
@@ -28,3 +31,11 @@ Implements a `DecisionTree` class from scratch only for categorical data classif
 **Performance:** Achieves 98 percent accuracy on test data.
 
 **Current status:** Working implementation with room for optimization.
+
+### 4. [Bias and Variance](/ML_Lab_04_jan_23.ipynb)
+Uses a very simple dataset [`./Salary.csv`](./Salary.csv) having only two columns to train three different models to demonstrate underfitting, overfitting and a neutral between them. Visualizes the $\text{Bias}^2 + \text{Variance}$ vs $\text{Model Complexity}$ plot.
+
+Requirements:
+- Concept of Overfitting
+- Concepts of Bias and Variance and their calculation
+- Bootstrap Sampling
