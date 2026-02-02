@@ -39,3 +39,18 @@ Requirements:
 - Concept of Overfitting
 - Concepts of Bias and Variance and their calculation
 - Bootstrap Sampling
+
+### 5. [Variation of Confidence Interval Size](/ML_Lab_05_jan_30.ipynb)
+Analyzes how confidence intervals change under different conditions using linear regression on synthetic noisy data.
+
+**Experiments:**
+1. **Varying noise σ:** Higher noise → larger confidence intervals
+2. **Varying dataset size:** More data → smaller confidence intervals  
+3. **Varying confidence level:** Higher confidence → wider intervals
+
+**Confidence Interval Formula:**
+$$\text{CI} = \bar{x} \pm z \left( \frac{\sigma}{\sqrt{n}} \right)$$
+
+**Requirements:**
+- Understanding of confidence intervals and z-scores
+- Familiarity with statistical uncertainty quantification
