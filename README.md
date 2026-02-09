@@ -54,3 +54,18 @@ $$\text{CI} = \bar{x} \pm z \left( \frac{\sigma}{\sqrt{n}} \right)$$
 **Requirements:**
 - Understanding of confidence intervals and z-scores
 - Familiarity with statistical uncertainty quantification
+
+> ### [Side Quest 01 - Polynomial Regression](/SQ_01_Polynomial_Regression.ipynb)
+> Implements a PolynomialRegressor class from scratch for pd.DataFrame objects using numpy and visualizes the working on a synthetic data with synthetic noise.
+> 
+> **Requirements:**
+> - Knowledge of Gradient Descent Algorithm
+> - Familiarity with Normalization/Standardization and advantages
+
+### 6. [Logistic Regression](/ML_Lab_06_feb_06.ipynb)
+Implements a LogisticRegression class froms scratch and visualizes working on a synthetic data.
+
+**Requirements:**
+- Understanding of Logistic Regression Algorithm
+- The sigmoid function and its usage in Logistic Regression
+- Gradient Ascent Algorithm (opposite of Gradient Descent)
