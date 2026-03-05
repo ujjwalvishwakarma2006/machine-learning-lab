@@ -49,6 +49,7 @@ Analyzes how confidence intervals change under different conditions using linear
 3. **Varying confidence level:** Higher confidence → wider intervals
 
 **Confidence Interval Formula:**
+
 $$\text{CI} = \bar{x} \pm z \left( \frac{\sigma}{\sqrt{n}} \right)$$
 
 **Requirements:**
@@ -56,16 +57,42 @@ $$\text{CI} = \bar{x} \pm z \left( \frac{\sigma}{\sqrt{n}} \right)$$
 - Familiarity with statistical uncertainty quantification
 
 > ### [Side Quest 01 - Polynomial Regression](/SQ_01_Polynomial_Regression.ipynb)
-> Implements a PolynomialRegressor class from scratch for pd.DataFrame objects using numpy and visualizes the working on a synthetic data with synthetic noise.
+> Implements a `PolynomialRegressor` class from scratch for `pd.DataFrame` objects using `numpy` and visualizes the working on a synthetic data with synthetic noise.
 > 
 > **Requirements:**
 > - Knowledge of Gradient Descent Algorithm
 > - Familiarity with Normalization/Standardization and advantages
 
 ### 6. [Logistic Regression](/ML_Lab_06_feb_06.ipynb)
-Implements a LogisticRegression class froms scratch and visualizes working on a synthetic data.
+Implements a `LogisticRegression` class froms scratch and visualizes working on a synthetic data.
 
 **Requirements:**
 - Understanding of Logistic Regression Algorithm
 - The sigmoid function and its usage in Logistic Regression
 - Gradient Ascent Algorithm (opposite of Gradient Descent)
+
+### 7. [Support Vector Machines (SVMs)](/ML_Lab_07_feb_13.ipynb)
+Implements a `SVM` class from scratch on top of the `cvxopt` library. Covers both hard-margin and soft-margin SVMs and visualizes the decision boundary, margin boundaries, and support vectors on synthetic data.
+
+**Requirements:**
+- Differences between SVM and Logistic Regression
+- Relationship between the primal and dual forms of a constrained optimization problem
+- Lagrangian multipliers and KKT conditions
+- Quadratic Programming (QP) and how `cvxopt` maps to the dual SVM formulation
+
+### 8. [SVM - Class-Specific Margins](/ML_Lab_08_feb_27.ipynb)
+Extends the SVM implementation to give each class its own margin — because apparently treating both classes equally was too mainstream. Visualizes the decision boundary, class-specific margin boundaries, and support vectors on synthetic data.
+
+**Requirements:**
+- Everything from the last lab
+- A mild curiosity about what happens if you just... tweak one thing
+
+> ### [Side Quest 02 - Approximating a Diagonal via Decision Tree](/SQ_02_Diagonal_Approximation.ipynb)
+> Fitting a decision tree on a dataset that is separable by a diagonal line. Decision trees really have no business doing this, but here we are. Spoiler: it works, kind of.
+> 
+> **Requirements:**
+> - Decision Trees
+> - Low expectations
+
+## Contribution
+No hard rules. If you've got something worth sharing, open a PR. Just make sure you include the math behind it — don't drop a black box and disappear. If it uses a niche library or some non-obvious syntax, add comments and a markdown section explaining what's going on. Future readers shouldn't have to reverse-engineer your thought process. If possible, share the resources explaining the mathematics behind that. 
