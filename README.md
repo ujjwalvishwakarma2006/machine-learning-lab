@@ -81,7 +81,7 @@ Implements a `SVM` class from scratch on top of the `cvxopt` library. Covers bot
 - Quadratic Programming (QP) and how `cvxopt` maps to the dual SVM formulation
 
 ### 8. [SVM - Class-Specific Margins](/ML_Lab_08_feb_27.ipynb)
-Extends the SVM implementation to give each class its own margin — because apparently treating both classes equally was too mainstream. Visualizes the decision boundary, class-specific margin boundaries, and support vectors on synthetic data.
+Extends the SVM implementation to give each class its own margin — because apparently treating both classes equally was too mainstream (classism). Visualizes the decision boundary, class-specific margin boundaries, and support vectors on synthetic data.
 
 **Requirements:**
 - Everything from the last lab
@@ -93,6 +93,14 @@ Extends the SVM implementation to give each class its own margin — because app
 > **Requirements:**
 > - Decision Trees
 > - Low expectations
+
+### 9. [Artificial Neural Networks from Scratch](/ML_Lab_09_mar_20.ipynb)
+Implements the `Layer`, `Dense`, `Dropout`, and `ANN` classes entirely from scratch (in the hopes that one day these machines might become as intelligent as us humans). Includes an empirical comparison between L2-regularization and dropout for mitigating overfitting. [Remaining: Adaptive learning rates]
+
+**Requirements:**
+- Gradient Descent and the Chain Rule
+- Object-Oriented Programming in Python (Classes and inheritance)
+- Neural Network theory, including forward and backward propagation (the notebook includes mathematical derivations along with the code, but a prior formal understanding is recommended)
 
 ## Contribution
 No hard rules. If you've got something worth sharing, open a PR. Just make sure you include the math behind it — don't drop a black box and disappear. If it uses a niche library or some non-obvious syntax, add comments and a markdown section explaining what's going on. Future readers shouldn't have to reverse-engineer your thought process. If possible, share the resources explaining the mathematics behind that. 
